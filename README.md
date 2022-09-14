@@ -1,12 +1,10 @@
-# Data-Analysis-Capstone-Project
-An Data Analysis Report created using R Markdown. 
 ---
 title: "Data Analysis Capstone Project"
 author: "Duncan Kinyua Gakuthi"
 date: "2022-09-07"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 editor_options:
   markdown:
@@ -55,7 +53,7 @@ No significant errors or missing information were identified; therefore, the ana
 ```{r M, echo=FALSE}
 
 ```
-Hospital Beds- This project considers hospital beds as those that are staffed, maintained, and available for medical services to inpatients. The number of hospital beds is also inclusive of cots that are meant for babies.
+
 
 ## Problem Statement.
 
@@ -64,6 +62,8 @@ Some regions in the country still lack sufficient beds to cater for their consti
 Figure 2 illustrates the deficit of beds per county.
 
 ![Number of Bed Deficits Per County](C:\Users\gakut\OneDrive\Desktop\Google Data Analytics Class\Capstone Project\deficit.png)
+
+
 ### Formula Used.
 
 ```{r echo=FALSE, out.width="100%"}
@@ -71,7 +71,7 @@ knitr::include_graphics("formula.jpg",error=FALSE)
 
 ```
 
-Using the formula above,every county should have a ratio of 3 and above to meet the recommended WHO bed to 1000 population ratio. Below is a histogram showing the ratios of all 47 counties. The counties that have achieved the recommended WHO ratio are highlighted in green.
+Using the formula above,every county should have a ratio of 3 and above to meet the recommended WHO bed to 1000 population ratio. Below is a histogram showing the ratios of all 47 counties. The counties that have achieved the recommended WHO ratio are highlighted in green.This project considers hospital beds as those that are staffed, maintained, and available for medical services to inpatients. The number of hospital beds is also inclusive of cots that are meant for babies.
 
 ```{r echo=FALSE, out.width="100%"}
 knitr::include_graphics("ratio.png",error=FALSE)
@@ -81,6 +81,8 @@ knitr::include_graphics("ratio.png",error=FALSE)
 
 3 beds=1000 inhabitants.
 It is simplified as one bed for every 333 inhabitants. 
+
+
 
 ## Recommendations.
 
